@@ -104,14 +104,14 @@ Time Decomposition 2 from the latex document, with Pmax in the knapsack constrai
 #### Time Decomposition 2 Pmin and Pmax
 You change the costs in the objective function of the subproblem, and it leads to changing some parts of the master problem as well
 
-# Switch Decomposition 2
+#### Switch Decomposition 2
 This is the startup decomposition from the latex document
 You must specify weither you want to use the inequality and the parameter for the cost repartition.
 
 #### Switch decomposition 
 This is the startup decompositon, the only difference is that you create a variable u in the master problem ; this allows to implement easily the decomposition, but slows it. This is described in "how to implement a decomposition", see below.
 
-# Overlapping decomposition
+#### Overlapping decomposition
 The overlapping between Unit and Time decomposition
 You can choose to use the inequality, and the coefficients for costs repartition
 
